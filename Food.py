@@ -116,6 +116,7 @@ class Food:
         time : 10 minute
         chef yes
         '''
+
         if self._chef_is_busy:
             logging.error('chef is bussy')
             return None
