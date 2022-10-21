@@ -38,8 +38,8 @@ class Food:
         logging.info("[END] patlıcan musakka")
         if self._service_ready:
             logging.error("patlıcan musakka hazır değil")
-        logging.info(f"it took {((self._end_Time - self._start_time) / self._minute):.2f})"
-                     f"minutes to complete ths reicipe")
+        logging.info(f"it took {((self._end_Time - self._start_time) / self._minute):.2f}"
+                     f"  minutes to complete ths recipe")
         return True
 
     async def cuttheingredients(self) -> None:
