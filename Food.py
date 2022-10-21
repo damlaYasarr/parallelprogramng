@@ -237,11 +237,18 @@ async def main() -> None:
         async with Food(0.1) as eggplant:
             await eggplant.cuttheingredients()
             await eggplant.eggplantwaitinthesaltywater()
-            await eggplant.fryngonions()
-            await eggplant.adddpepper()
-            await eggplant.mixmincespicytomatosauce()
-            await eggplant.addtomatoessliceintosouce()
-            await eggplant.eggplantFrying()
+            task1=[
+             eggplant.fryngonions(),
+             eggplant.adddpepper(),
+             eggplant.mixmincespicytomatosauce(),
+             eggplant.addtomatoessliceintosouce()
+            ]
+            await asyncio.gather(*task1)
+            task2=[
+             eggplant.eggplantFrying()
+             ]
+            await asyncio.gather(*task2)
+
             await eggplant.mixfriedeggplantandmincesauce()
 
         return None
