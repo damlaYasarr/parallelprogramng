@@ -1,0 +1,16 @@
+# parallelprogramng
+Parallel programming is a technique where we use multiple threads to execute a task faster. 
+This means that on modern multi-core architectures we can utilize more of the resources available to perform a task.
+
+Asynchronous programming is subtly different. This normally involves longer running tasks and tasks which are perhaps waiting
+on some kind of external stimuli. 
+A good example of this is to perform a large calculation in a background thread so that the UI remains responsive.
+With asynchronous code we are normally talking about code which executes at a different rate to our main application.
+
+
+ async provides you a method of opening thousands of connections at once and swapping among each connection as they finish and return their results. 
+ Basically, it sends the request to a connection and moves to the next one instead of waiting for the previous one’s response. 
+ It continues like this until all the connections have returned the outputs. 
+
+
+![Screenshot from 2022-10-21 16-01-46](https://user-images.githubusercontent.com/66484788/197202431-290d052d-50f3-4af4-a161-2d28716e0827.png)
