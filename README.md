@@ -14,3 +14,9 @@ With asynchronous code we are normally talking about code which executes at a di
 
 
 ![Screenshot from 2022-10-21 16-01-46](https://user-images.githubusercontent.com/66484788/197202431-290d052d-50f3-4af4-a161-2d28716e0827.png)
+
+
+
+
+## the output of code.
+![Screenshot from 2022-10-21 16-59-28](https://user-images.githubusercontent.com/66484788/197213781-82ef1277-e945-48e6-970c-b4164705159c.png)
