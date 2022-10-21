@@ -19,4 +19,11 @@ With asynchronous code we are normally talking about code which executes at a di
 
 
 ## the output of code.
+1) long time
+
+![Screenshot from 2022-10-21 15-44-06](https://user-images.githubusercontent.com/66484788/197214752-1d7c09a3-6c0d-447a-9dfa-9c18bb3d1e4b.png)
+
+
+2) less time
+
 ![Screenshot from 2022-10-21 16-59-28](https://user-images.githubusercontent.com/66484788/197213781-82ef1277-e945-48e6-970c-b4164705159c.png)
