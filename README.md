@@ -11,5 +11,6 @@ With asynchronous code we are normally talking about code which executes at a di
  async provides you a method of opening thousands of connections at once and swapping among each connection as they finish and return their results. 
  Basically, it sends the request to a connection and moves to the next one instead of waiting for the previous one’s response. 
  It continues like this until all the connections have returned the outputs. 
- 
- ![image](file:///home/damlayasarr/Pictures/Screenshots/Screenshot%20from%202022-10-21%2016-01-46.png)
+
+
+![Screenshot from 2022-10-21 16-01-46](https://user-images.githubusercontent.com/66484788/197202431-290d052d-50f3-4af4-a161-2d28716e0827.png)
